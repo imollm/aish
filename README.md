@@ -2,7 +2,9 @@
 
 This assistant allows you to ask to AI for a specific shell command.
 
-## OPENAI API KEY
+## Requirements
+NodeJS >= 18.0.0
+### OPENAI API KEY
 
 You have to create an environment variable with the API key.
 
