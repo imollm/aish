@@ -1,0 +1,28 @@
+{
+  "name": "aish",
+  "version": "1.0.0",
+  "description": "This is an AI assistant for shell commands.",
+  "type": "module",
+  "bin": {
+    "aish": "./src/index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "co": "ivanco",
+    "aish": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clack/prompts": "0.6.1",
+    "picocolors": "1.0.0"
+  },
+  "devDependencies": {
+    "ivanco": "1.0.3",
+    "standard": "17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
