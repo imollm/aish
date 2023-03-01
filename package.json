@@ -9,7 +9,7 @@
   "main": "index.js",
   "scripts": {
     "co": "ivanco",
-    "aish": "node src/index.js",
+    "aish": "aish",
     "test": "vitest"
   },
   "keywords": [],
@@ -22,7 +22,8 @@
   "devDependencies": {
     "ivanco": "1.0.3",
     "standard": "17.0.0",
-    "vitest": "0.29.2"
+    "vitest": "0.29.2",
+    "aish": "file://."
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
