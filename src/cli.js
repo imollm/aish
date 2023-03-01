@@ -5,19 +5,19 @@ import { promisify } from 'node:util'
 
 export class CLI {
   constructor () {
-    this.prompt = process.argv.slice(2)
-    this.isPromptEmpty()
-    this.userPrompt = this.prompt.join(' ')
-  }
-
-  isPromptEmpty () {
-    if (this.prompt.length === 0) {
-      this.handleExit({ code: 0, message: 'You have to type something.' })
-    }
+    this.prompt = ''
   }
 
   async getPrompt () {
-    return this.userPrompt
+    const input = process.argv.slice(2)
+
+    if (input.length === 0) {
+      this.handleExit({ code: 0, message: 'You have to type something.' })
+    }
+
+    this.prompt = input.join(' ')
+
+    return this.prompt
   }
 
   async showResult ({ result }) {
