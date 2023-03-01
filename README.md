@@ -20,3 +20,8 @@ Windows
 ```
 setx OPENAI_API_KEY "<your_api_key_goes_here>"
 ```
+
+### Try the assistant
+```sh
+npx aish@latest <Here goes your prompt>
+```
