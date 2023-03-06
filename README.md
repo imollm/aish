@@ -1,4 +1,4 @@
-# AISH - Artificial Intelligence Shell Assistant
+# AISHA - Artificial Intelligence Shell Assistant
 
 This assistant allows you to ask to AI for a specific shell command.
 
